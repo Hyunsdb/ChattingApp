@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lin1"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="아이디"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="비밀번호"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="비밀번호확인"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/lin1"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/id_edit_sign"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/password_edit_sign"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/password_check_edit"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="textWebPassword" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="확인"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+        //비밀번호 확인 체크 표시할 것
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="152dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="35dp"
+            android:id="@+id/password_check"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

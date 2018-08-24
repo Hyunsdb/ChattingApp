@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "365051052854",
+    "firebase_url": "https://expro2-ec0e2.firebaseio.com",
+    "project_id": "expro2-ec0e2",
+    "storage_bucket": "expro2-ec0e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365051052854:android:3504ba555efce679",
+        "android_client_info": {
+          "package_name": "com.smu.expro2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365051052854-f716kep9lnv4s7jpdias22n1td0fevhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5yhwrWbuuZLODQzOqwYSZHlg8fo8zIr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
